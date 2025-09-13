@@ -3,12 +3,13 @@ export default defineNuxtConfig({
   ssr: false,
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui-pro', '@nuxt/content'],
+  modules: ['@nuxt/ui-pro', '@nuxtjs/mdc'],
   css: ['~/assets/css/main.css'],
   mdc: {
     highlight: {
       theme: 'material-theme-palenight',
       langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'php'],
+      // shikiEngine: 'javascript'
     },
     headings: {
       anchorLinks: {
