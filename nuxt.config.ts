@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     highlight: {
       theme: 'material-theme-palenight',
       langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'php'],
-      // shikiEngine: 'javascript'
+      shikiEngine: 'javascript'
     },
     headings: {
       anchorLinks: {
